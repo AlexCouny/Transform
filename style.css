@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.telephone {
+    width: 283px;
+    height: 600px;
+    border-radius: 30px;
+    background-image: url(./images/pngwing.com\ \(9\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.in__telephone {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 430px;
+    border: 1px solid #000;
+    background: linear-gradient(#fff,#059ef0);
+}
+
+/* ------HEADER------------------ */
+.telephone__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    width: 190px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+    transform: translateY(-25px);
+}
+.telephone__header::before {
+    position: absolute;
+    content: '';
+    width: 110%;
+    height: 2px;
+    background-color: #e80f95;
+    bottom: -5px;
+    transform: translateX(-10px);
+}
+.header__icons {
+}
+/* ------HEADER----------------- */
+
+
+
+/* -----MAIN----------------------------- */
+.telephone__main {
+    margin: 0 auto;
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: translateY(-45px);
+}
+.telephone__block {
+    margin: 0 auto;
+    background-color: #ce13e7;
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+.telephone-block__shirt {
+    display: block;
+    margin: 10px auto;
+    width: 80px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.telephone-block__shirt:hover {
+    /* transform: scale(2); /* scale = збільшення та зменшення елементів (вимірюється в одиницях) */
+    /* transform: rotate(-360deg); /* rotate = перевертає ,крутить елемент (вимірюється в deg) */
+    /* transform: skew(20deg); /* skew = витягує та наклоняє елемент (виміряється в deg) */
+    /*transform: translateY X(30px); /* translate = рухає елементи по осям незалежно від інших ел. (вим. в px) */
+}
+.telephone__squares {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.telephone__squares__arrow {
+}
+.telephone-squares__box {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(240, 14, 153, 0.33);
+    border-radius: 2px;
+}
+.telephone-line {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.line__inside {
+    width: 90px;
+    height: 7px;
+    background-color: #e80f95;
+    border-radius: 5px;
+}
+.line__inside:nth-child(2) {
+    width: 60px;
+    height: 7px;
+    background-color: #e80f95;
+}
+/* -----MAIN----------------------------- */
+
+/* -----------FOOTER------------------ */
+.telephone__footer {
+    margin: 0 auto;
+    height: 30px;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-30px);
+}
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-block__circle {
+    background-color: #e80f95;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+.telephone__btn {
+    margin-left: 7px;
+    background-color: #ce13e7;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    text-transform: capitalize;
+}
+.footer-icons {
+    letter-spacing: 6px;
+}
+/* -----------FOOTER------------------ */
+
